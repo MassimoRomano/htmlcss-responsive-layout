@@ -15,7 +15,7 @@
 }
 
 .container{
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 
@@ -40,8 +40,8 @@
 }
 
 .space{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .light-blue{
@@ -68,7 +68,6 @@
 
 #site_main{
     height: auto;
-    background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -77,10 +76,111 @@
     width: 100%;
     border-radius: 30px;
     padding: 0px 15px 0px 15px;
+    margin-bottom: 40px;
+}
+
+.text_big_card{
+    >h3{
+        font-size: 25px;
+        padding: 40px 0;
+    }
+    & >p{
+        font-size: 15px;
+        font-weight: bold;
+        padding-bottom: 40px;
+ }
+}
+
+.btn_app{
+    background-color: var(--primary-bar);
+    padding: 10px 80px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    >i{
+        padding-right: 5px;
+    }
 }
 
 .phone>img{
     display: block;
     width: 100%;
-    padding: 30px 40px 0px 40px;
+    padding: 50px 40px 0px 40px;
+}
+
+.small-card{
+    width: 100%;
+    border-radius: 30px;
+    padding: 0px 15px 0px 15px;
+    margin-bottom: 40px;
+
+    >p{
+        font-weight: bold;
+        padding-bottom: 40px;
+    }
+}
+
+#strategic{
+    background-color: var(--strategic-purple);
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.plan-1{
+    >img{
+        display: block;
+        width: 100%;
+        padding: 80px 0;
+    }
+}
+
+.text-strategic{
+    >h2{
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+    }
+    & > p{
+        color: white;
+        font-weight: bold;
+        padding: 60px 0;
+    }
+}
+
+.develop{
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0px 15px 0px 15px;
+    
+
+    > img{
+        display: block;
+        width: 100%;
+        padding: 30px 0; 
+    }
+
+}
+
+.text-develop{
+    padding-bottom: 30px;
+    >h3{
+        font-weight: 700;
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+}
+
+.arrow{
+    padding: 40px 0;
+    >i{
+        background-color: var(--strategic-purple);
+        border-radius: 50%;
+        padding: 15px 20px; 
+        color: #292649;
+        font-size: 20px;
+    }
 }
