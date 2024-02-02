@@ -31,6 +31,10 @@
     flex-wrap: wrap;
 
 }
+.column{
+    flex-direction: column;
+}
+
 .space_between{
     justify-content: space-between;
 }
@@ -100,4 +104,40 @@
     width: 48%;
     height: 400px;
     background-color: var(--demo-light);
+}
+
+#testimonials{
+    height: 600px;
+    margin-top: 80px;
+    padding: 0px 100px;
+    text-align: center;
+}
+
+.photo-card{
+    background-color: var(--strategic-purple);
+    height: 250px;
+    border-radius: 30px;
+}
+
+.left-photo{
+    width: 35%;
+    padding: 25px 20px ;
+    >img{
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+}
+
+.text-photo{
+    text-align: left;
+    padding: 0 50px 0 5px; 
+    
+}
+
+#benefit{
+    margin-top: 80px;
+    height: 600px;
+    background-color: var(--strategic-purple);
 }
