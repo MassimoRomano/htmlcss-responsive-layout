@@ -23,40 +23,33 @@
     display: flex;
 }
 
-.column{
-    flex-direction: column;
+.gap{
+    gap: 30px;
 }
 
+.wrap{
+    flex-wrap: wrap;
+
+}
 .space_between{
     justify-content: space-between;
+}
+
+.center{
+    justify-content: center;
 }
 
 .align-items{
     align-items: center;
 }
 
-.center{
-    text-align: center;
+.cal-md-8{
+    width: calc((100%/12)*8);
 }
 
-.space{
-    padding-top: 25px;
-    padding-bottom: 25px;
+.cal-lg-4{
+    width: calc((100%/12)*4);
 }
-
-.light-blue{
-    background-color: var(--demo-light);
-}
-
-.blue{
-    color: var(--primary-bar);
-}
-
-.dark{
-    color: var(--write-dark);
-}
-
-/* site header */
 
 #site_header{
     background-color: var(--primary-bar);
@@ -65,122 +58,46 @@
     
 }
 
-
-#site_main{
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+#demo{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .big-card{
-    width: 100%;
+    background-color: var(--demo-light);
     border-radius: 30px;
-    padding: 0px 15px 0px 15px;
-    margin-bottom: 40px;
-}
-
-.text_big_card{
-    >h3{
-        font-size: 25px;
-        padding: 40px 0;
-    }
-    & >p{
-        font-size: 15px;
-        font-weight: bold;
-        padding-bottom: 40px;
- }
-}
-
-.btn_app{
-    background-color: var(--primary-bar);
-    padding: 10px 80px;
-    text-decoration: none;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 25px;
-    >i{
-        padding-right: 5px;
-    }
-}
-
-.phone>img{
-    display: block;
-    width: 100%;
-    padding: 50px 40px 0px 40px;
+    height: 300px;
+    width: auto;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .small-card{
-    width: 100%;
+    background-color: var(--demo-light);
     border-radius: 30px;
-    padding: 0px 15px 0px 15px;
-    margin-bottom: 40px;
-
-    >p{
-        font-weight: bold;
-        padding-bottom: 40px;
-    }
+    height: 300px;
+    width: auto;
+    margin-right: 20px;
+    padding: 10px 20px;
 }
 
 #strategic{
     background-color: var(--strategic-purple);
-    height: auto;
-    padding-bottom: 80px;
+    height: 600px;
 }
 
-.plan-1{
-    >img{
-        display: block;
-        width: 100%;
-        padding: 80px 0;
-    }
+.planning{
+    padding: 100px 0;
+}
+.left-strate{
+    width: 48%;
+    height: 400px;
+    background-color: var(--demo-light);
 }
 
-.text-strategic{
-    >h2{
-        font-size: 40px;
-        color: white;
-        font-weight: bold;
-    }
-    & > p{
-        color: white;
-        font-weight: bold;
-        padding: 60px 0;
-    }
-}
-
-.develop{
-    background-color: white;
-    width: 100%;
-    border-radius: 30px;
-    padding: 0px 15px 0px 15px;
-    
-
-    > img{
-        display: block;
-        width: 100%;
-        padding: 30px 0; 
-    }
-
-}
-
-.text-develop{
-    padding-bottom: 30px;
-    >h3{
-        font-weight: 700;
-        font-size: 25px;
-        padding-bottom: 30px;
-    }
-}
-
-.arrow{
-    padding: 40px 0;
-    >i{
-        background-color: var(--strategic-purple);
-        border-radius: 50%;
-        padding: 15px 20px; 
-        color: #292649;
-        font-size: 20px;
-    }
+.right-strate{
+    width: 48%;
+    height: 400px;
+    background-color: var(--demo-light);
 }
