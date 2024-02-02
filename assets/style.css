@@ -107,7 +107,7 @@
 }
 
 #testimonials{
-    height: 600px;
+    height: 1200px;
     margin-top: 80px;
     padding: 0px 100px;
     text-align: center;
@@ -137,7 +137,22 @@
 }
 
 #benefit{
-    margin-top: 80px;
-    height: 600px;
     background-color: var(--strategic-purple);
+    height: 800px;
+    padding-top: 100px;
+    margin-bottom: 80px;
+}
+
+.ben-small-card{
+    background-color: var(--demo-light);
+    border-radius: 30px;
+    height: 300px;
+    width: auto;
+    margin-right: 30px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+#about{
+    
 }
