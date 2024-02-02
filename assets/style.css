@@ -99,25 +99,54 @@
 /* section strategic */
 #strategic{
     background-color: var(--strategic-purple);
-    height: 600px;
+    height: auto;
 }
 
 .planning{
     display: flex;
     flex-direction: row;
     gap: 4%;
-    padding: 100px 0;
+    padding: 50px 0;
 }
+
 .left-strate{
-    width: 48%;
-    height: 400px;
-    background-color: var(--demo-light);
+    width: 58%;
+    height: auto;
+    padding: 0px 30px ;
+    
+    >img{
+        display: block;
+        width: 100%;
+    }
+    >h3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: white;
+        font-weight: bolder;
+    }
+    >p{
+        color: white;
+    }
 }
 
 .right-strate{
-    width: 48%;
-    height: 400px;
+    width: 38%;
+    padding: 0px 40px 40px 40px;
+    height: auto;
     background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 80px;
+
+    >img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    >h3{
+        margin: 20px 0;
+    }
 }
 
 /*  section testimonials */
