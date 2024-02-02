@@ -47,11 +47,15 @@
 .align-items{
     align-items: center;
 }
-
+.cal-sm-12{
+    width: 100%;
+}
 .cal-md-8{
     width: calc((100%/12)*8);
 }
-
+.cal-md-6{
+    width: calc((100%/12)*6);
+}
 .cal-lg-4{
     width: calc((100%/12)*4);
 }
@@ -99,6 +103,9 @@
 }
 
 .planning{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
     padding: 100px 0;
 }
 .left-strate{
@@ -110,7 +117,7 @@
 .right-strate{
     width: 48%;
     height: 400px;
-    background-color: var(--demo-light);
+    background-color: white;
 }
 
 /*  section testimonials */
@@ -126,6 +133,11 @@
     background-color: var(--strategic-purple);
     height: 250px;
     border-radius: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left-photo{
@@ -155,7 +167,7 @@
 }
 
 .ben-small-card{
-    background-color: var(--demo-light);
+    background-color: white;
     border-radius: 30px;
     height: 300px;
     width: auto;
@@ -169,6 +181,19 @@
 #about{
     height: 600px;
     margin-bottom: 80px;
+}
+
+#about{
+    margin: auto;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.planning-about{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
 }
 
 .left-about{
@@ -211,4 +236,160 @@
     text-align: center;
     width: 60%;
     margin: auto;
+}
+
+
+/*  MEDIA */
+
+
+/* phone */
+
+@media screen and (min-width:320px) and (max-width:700px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    .cal-sm-12{
+        width: 100%;
+    }
+
+    .big-card{
+        margin: auto;
+        margin-bottom:20px;
+    }
+    
+    .small-card{
+        background-color: var(--demo-light);
+        border-radius: 30px;
+        height: auto;
+        width: auto;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 30px 20px;
+    }
+
+    #strategic{
+        height: auto;
+    }
+
+    .planning{
+     display: flex;
+     flex-direction: column;
+     padding: 50px;
+     gap: 10px;
+       
+    }
+
+    #testimonials{
+        height: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .photo-card{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 20px;
+        margin-top: 50px;  
+    }
+
+    .left-photo{
+        padding:0;
+
+        >img{
+        display: block;
+        width: 150px;
+        height: 150px;
+        }
+    }
+    
+    .text-photo{
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #benefit{
+        background-color: var(--strategic-purple);
+        height: auto;
+        padding-top: 100px;
+        margin: auto;
+        margin-bottom: 80px;
+        
+    }
+
+    .ben-small-card{
+        background-color: var(--demo-light);
+        border-radius: 30px;
+        height: auto;
+        width: auto;
+        padding: 20px 30px;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .planning-about{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* TABLET */
+
+@media screen and (min-width:768px) and (max-width:1023px)  {
+    
+    .cal-md-6{
+        width: calc((100%/12)*6);
+    }
+
+    .planning-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 100px 0;
+    }
+
+    #benefit{
+        background-color: var(--strategic-purple);
+        height: auto;
+        padding: 100px 0;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .photo-card{
+        margin-top: 50px;
+    }
+    .left-photo{
+        padding:20px;
+        width: 40%;
+
+        >img{
+        display: block;
+        width: 150px;
+        height: 150px;
+        }
+    }
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width:1024px) and (max-width:2560px) {
+    .cal-lg-4{
+        width: calc((100%/12)*4);
+    }
+    .photo-card{
+        margin-top: 50px;
+    }
+
+    .planning-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 100px 0;
+    }
 }
