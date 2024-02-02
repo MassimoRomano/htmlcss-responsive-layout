@@ -14,6 +14,7 @@
     --darkest:#323233;
 }
 
+/* #region common */
 .container{
     width: 85%;
     margin: auto;
@@ -55,6 +56,10 @@
     width: calc((100%/12)*4);
 }
 
+/* #region common */
+
+/* site header */
+
 #site_header{
     background-color: var(--primary-bar);
     height: auto;
@@ -62,6 +67,7 @@
     
 }
 
+/* section demo */
 #demo{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -86,6 +92,7 @@
     padding: 10px 20px;
 }
 
+/* section strategic */
 #strategic{
     background-color: var(--strategic-purple);
     height: 600px;
@@ -105,6 +112,8 @@
     height: 400px;
     background-color: var(--demo-light);
 }
+
+/*  section testimonials */
 
 #testimonials{
     height: 1200px;
@@ -136,6 +145,8 @@
     
 }
 
+/* section benefit */
+
 #benefit{
     background-color: var(--strategic-purple);
     height: 800px;
@@ -152,6 +163,8 @@
     padding: 10px 20px;
     margin-bottom: 30px;
 }
+
+/* section about */
 
 #about{
     height: 600px;
@@ -170,6 +183,7 @@
     background-color: var(--demo-light);
 }
 
+/* section started */
 #started{
     background-color: var(--strategic-purple);
     height: auto;
@@ -183,6 +197,8 @@
     width: 60%;
     margin: auto;
 }
+
+/* footer */
 
 #site_footer{
     background-color: var(--darkest);
